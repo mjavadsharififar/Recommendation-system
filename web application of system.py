@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
 
-final = pd.read_csv('movies_final.csv',index_col = [0])
-movie_sim = pd.read_csv('movie_sim.csv',index_col = [0])
+final = pd.read_csv('movies after preprocessing.csv',index_col = [0])
+movie_sim = pd.read_csv('movies similarity matrix.csv',index_col = [0])
 
 st.title('Welcome to the Movie recommender!')
 st.markdown('### Here you can find which movies go with your interests!') #st.header() st.subheader()
